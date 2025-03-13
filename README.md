@@ -1,47 +1,43 @@
-# Machine Learning Final Project - Zewailcity
+# Machine Learning Final Project - Fraud Detection & Loan Risk Prediction
 
-## Overview
-This project is the final assignment for the Machine Learning Course at Zewailcity. It consists of two major tasks:
+## Description
+This project is the final submission for the Machine Learning course at Zewailcity. It consists of two main parts:
 
-1. **Fraudulent Card Transaction Classification**
-   - The goal is to classify fraudulent credit card transactions so that they are automatically rejected and reported to the bank and authorities.
-   
-2. **Loan Risk Prediction**
-   - This task involves predicting the risk level of requested loans based on customer data.
-   - The final decision determines whether a loan is accepted or rejected.
+1. **Fraud Card Transaction Classification**: The goal is to classify fraudulent credit card transactions so that they can be automatically rejected and reported to the bank and authorities.
+2. **Loan Risk Prediction**: This part involves predicting the risk rate for requested loans based on customer data, ultimately determining whether a loan should be accepted or rejected.
 
-## Project Structure
-The project consists of two Jupyter notebooks:
-- **ML_Phase2_Classification_Credit_Cards.ipynb**: Implements a classification model to detect fraudulent transactions.
-- **ML_Phase2_Regression_Loans.ipynb**: Implements a predictive model to assess loan risks.
+## Project Status
+This project is **finalized** and was developed as part of the course requirements.
 
-## Requirements
-To run this project, you need the following dependencies:
-- Python 3.x
-- Jupyter Notebook
+## Authors
+- Mahmoud Elgendy
+- Mohamed Mahmoud
+- Habib Ahmed
+- Abdelrahman Ashraf
+
+## Files Included
+- `ML_Phase2_Classification_Credit_Cards.ipynb` - Contains the classification model for fraud detection.
+- `ML_Phase2_Regression_Loans.ipynb` - Contains the regression-based loan risk prediction model.
+
+## Technologies Used
+- Python
 - Scikit-learn
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
+- Jupyter Notebook
 
 ## How to Run
-1. Install the required dependencies using:
+1. Install required libraries:
    ```bash
-   pip install scikit-learn pandas numpy matplotlib seaborn
+   pip install -r requirements.txt
    ```
-2. Open Jupyter Notebook:
+2. Open the notebooks in Jupyter:
    ```bash
    jupyter notebook
    ```
-3. Run each notebook in the provided order.
+3. Run the cells in each notebook sequentially to see the analysis and predictions.
 
-## Status
-This project is still undergoing development, and improvements are expected in both accuracy and efficiency. Further optimization and feature engineering will be explored in future iterations.
-
-## Authors
-- Machine Learning Students at Zewailcity
-
-## License
-This project is for educational purposes only.
+## Acknowledgments
+This project was developed as part of the Machine Learning course at Zewailcity and follows best practices in fraud detection and loan risk analysis.
 
